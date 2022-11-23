@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+body {
+  background-color: #FCF9F8;
+  height: 100vh;
+}
+.App {
+  font-family: 'Manrope', serif;
+  background: #FCF9F8;
+  position: relative;
+  min-height: 100vh;
+}
+.sidebar-main {
+  background: #fff;
+}
+.main-container {
+  padding: 5px 30px;
+}
+label {
+  color: #969494;
+  font-weight: 700;
+}
+.navbar-brand-main {
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #E2087D;
+}
+.navbar-brand-main:hover {
+  color: #083352;
+}
+.burger path {
+  fill: #E2087D;
+}
+.burger-color:hover path {
+  fill: #083352;
+}
+
+.company-table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.table-heder {
+  background: #083352;
+  border-radius: 4px;
+  color: #fff;
+}
+.table-heder th {
+  font-weight: 500;
+  font-size: 10px;
+}
+.table-heder th:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.table-heder th:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.table-row {
+  background: #fff;
+}
+.table-row td {
+  vertical-align: middle;
+  font-size: 14px;
+  padding: 0 10px;
+  background: #fff;
+  border-bottom: 0;
+}
+
+.table-row:hover .no-hover {
+  --bs-table-accent-bg: #fff;
+}
+
+
+.elementContainer {
+  margin: 0 -5px;
+}
+.elementContainer > * {
+  margin: 0 5px;
+}
+
+.headerElementContainer {
+  margin: 0 -15px;
+}
+.headerElementContainer > * {
+  margin: 0 15px;
+}
+
+.search-string-container {
+  line-height: 2em;
+  position: relative;
+}
+.on-input-search-label {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  left: 10px;
+  line-height: 0;
+}
+.search-string {
+  color: #969494;
+  padding: 2px 35px;
+  margin: 0;
+  border: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  background-color: #fff;
+  min-width: 300px;
+}
+.search-string::placeholder {
+  color: #969494;
+}
+
+.dark-search .search-string{
+  background: #FCF9F8;
+}
+
+
+.btn-auth {
+  background: linear-gradient(93.65deg, rgba(247, 207, 228, 0.24) 0%, rgba(233, 226, 230, 0.3) 102.51%);
+  border-radius: 4px;
+  border: 0;
+  padding: 5px 12px;
+}
+.btn-add {
+  background: #E2087D;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.003em;
+  font-size: 18px;
+}
+.btn-add:hover {
+  background: #083352;
+}
+.btn-filter {
+  border-radius: 4px;
+  padding: 4px 16px;
+}
+
+.btn-filter-primary {
+  background: #FCFCFC;
+  border: 0.5px solid #969494;
+  font-size: 14px;
+}
+
+.btn-filter-primary:hover {
+  background: linear-gradient(93.65deg, #E9F3FA 0%, rgba(186, 227, 255, 0.15) 102.51%);
+  border: 0.5px solid #969494;
+}
+.btn-filter-primary.active {
+  background: linear-gradient(93.65deg, #E9F3FA 0%, rgba(186, 227, 255, 0.15) 102.51%);
+  border: 0.5px solid #083352;
+  box-shadow: -2px 2px 40px rgba(32, 53, 68, 0.11);
+  border-radius: 4px;
+}
+.text-right {
+  text-align: right;
+}
+
+.padding-container {
+  padding: 1.5em 0; 
+}
+
+.panel-title {
+  padding: 1.5em 0; 
+  font-size: 20px;
+  letter-spacing: 0.003em;
+  color: #333333;
+  font-weight: 600;
+}
+.panel-title > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.panel-nav-item {
+  padding: 10px 30px;
+  margin: 0 -10px;
+  font-size: 14px
+}
+.panel-nav-item.active {
+  box-shadow: -4px 4px 10px rgba(4, 34, 55, 0.08);
+  background: #FFFFFF;
+  font-weight: 700;
+}
+.panel-nav-item:hover {
+  font-weight: 700;
+}
+
+.loya-header-light {
+  background: #fff;
+}
